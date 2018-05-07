@@ -1,0 +1,111 @@
+body{
+	background: rgb(52,56,59);
+}
+
+
+h1,h2,h4{
+	text-align: center;
+	color: rgba(230,231,242,0.9);
+}
+
+textarea{
+	height: 200px;
+	width: 500px;
+	font-size:20px;
+}
+
+.askDiv,.searchDiv{
+	text-align: center;
+	
+}
+
+.remainingCharacters{
+	width:500px;
+	margin:0 auto;
+	text-align: right;
+	font-size: 15px;
+	color: rgba(230,231,242,0.9);
+}
+
+#searchInput{
+	font-size: 20px;
+	width: 500px;
+	font-family: Tahoma;
+	padding: 10px;	
+}
+
+#searchButton{
+	font-size: 20px;
+	margin: 20px 20px;
+	padding: 10px;
+	width:120px;
+}
+
+.searchRadio{
+	text-align: center;
+	color: rgba(230,231,242,0.9);
+}
+
+#cuttingLine{
+	width: 80%;
+}
+
+.AskandEdit{
+	width: 90%;
+	text-align: right;
+}
+
+#searchResult{
+	color: rgba(230,231,242,0.9);
+}
+
+#errorMessage{
+	color: rgb(237,81,117);
+	width: 59%;
+	text-align: right; 
+}
+
+#questionDetail{
+	color: rgba(230,231,242,0.9);
+	height: 200px;
+	width: 500px;
+	font-size:20px;
+	margin: 0 auto;
+}
+
+#detailButtons{
+	width: 70%;
+	text-align: right;
+}
+
+.answerField{
+	color: rgba(230,231,242,0.9);
+	width: 40%;
+	height: 120px;
+	font-size:20px;
+	border: 1px solid white;
+	margin: 0 auto;
+}
+
+.upAndDown{
+	text-align: right;
+	width: 70%;
+}
+
+.score{
+	color: rgba(230,231,242,0.9);
+}
+
+.link{ 
+	max-width:510px;  
+	text-overflow:ellipsis; 
+	white-space:nowrap; 
+	overflow:hidden; 
+	font-size: 17px;
+}
+
+@media screen and (max-width: 500px) { 
+.col-sm-3 {visibility: hidden;} 
+.link{max-width: 340px;}
+} 
+
