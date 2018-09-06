@@ -17,5 +17,7 @@
 * 每条回答都有一个评分，点击up评分加一，点击down评分减一，点击时ajax更新数据库并实时显示评分
 ![detail](images/detail.PNG)
 
+视频介绍[https://www.youtube.com/watch?v=XrU3ljyz_As](https://www.youtube.com/watch?v=XrU3ljyz_As)
+
 
 
